@@ -2,5 +2,5 @@
 To view website, [click here](http://byounghyunoh.com)
 
 ## Feature
-* Lightweight fully responsive website
+* Lightweight fully responsive static website
 * Sass and JavaScript
