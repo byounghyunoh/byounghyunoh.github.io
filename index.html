@@ -367,7 +367,13 @@
         <ul>
             <br>
             <li>
-                <a href="mailto:mail@ByounghyunOh.com"><i class="fa fa-envelope" style="font-size: 36px" aria-hidden="true"></i></a>
+                <!-- Shroud your email address for preventing spam -->
+                <script language="JavaScript">
+                    var username = "mail";
+                    var hostname = "ByounghyunOh.com";
+                    var linktext = username + "@" + hostname ;
+                    document.write("<a href='" + "mail" + "to:" + username + "@" + hostname + "'>" + "<i class='fa fa-envelope' style='font-size: 36px' aria-hidden='true'></i></a>");
+                </script>
             </li>
             <li>
                 <a href="https://www.linkedin.com/in/byounghyunoh/" target="_blank"><i class="fa fa-linkedin" style="font-size: 36px" aria-hidden="true"></i></a>
